@@ -6,13 +6,43 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage - SavanahStores</title>
+    {% load static %}
+    <style>
+
+      h1{
+        text-align: center;
+
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
 </head>
 <body>
 <h1>SavanahStore Web Application</h1>
+<a href="{% url 'services'%}">View Services</a>
+<a href="{% url 'gallery'%}">View Products</a>
+
 
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A commodi facere fugiat illo nulla odio perspiciatis qui quibusdam quisquam sint. Alias aliquam asperiores est explicabo nostrum quae tempora unde voluptas?</span><span>Asperiores corporis dicta impedit in incidunt itaque praesentium vel voluptate? A ab accusamus ad dolore, dolores est eveniet facilis ipsa ipsam neque optio provident quasi qui ratione tempora vel voluptatum.</span><span>A aut eum, itaque neque officiis perferendis quam repudiandae similique tempora veritatis? Accusamus accusantium alias corporis earum inventore numquam quia recusandae repellendus ullam unde! Est, necessitatibus quis! Doloremque fugiat, sit?</span></p>
 
-
+<img src="{% static 'assets/m2.jpeg'%}" alt="">
 
 
 
